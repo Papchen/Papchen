@@ -1,0 +1,45 @@
+/*color de la pagina y tipo de letra*/
+
+/*General Reset*/
+
+
+body{
+	font-family: arial, helvetica;
+	background: #D500F9;
+}
+/*color del menu*/
+.menu{
+	padding: 0;
+	background: #0e131b;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #CC33CC;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background: #504867;
+}
+/*espacio entre cada seccion del menu*/
+.menu li a{
+	margin: 0 3rem;
+}
+
+footer {
+	background-color: #ff97d9;
+	padding: 10px;
+	text-align: center; 
+	color: white;
+}
+
+
